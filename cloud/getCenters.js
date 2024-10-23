@@ -1,4 +1,4 @@
-async function centers(request) {
+async function getCenters(request) {
     const Center = Parse.Object.extend("SmileCenters");
     const query = new Parse.Query(Center);
   
@@ -121,4 +121,4 @@ async function centers(request) {
     }
   }
   
-  module.exports = centers;
+  module.exports = getCenters;
