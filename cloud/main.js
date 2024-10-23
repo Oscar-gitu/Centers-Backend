@@ -1,4 +1,4 @@
 
-const getCenters = require('./getCenters'); 
+const centers = require('./centers'); 
 
-Parse.Cloud.define("getCenters", getCenters);
+Parse.Cloud.define("centers", centers);
